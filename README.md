@@ -1,5 +1,6 @@
 <h1 align="center">Bangalore House Price Prediction Using Machine Learning Regression Model</h1>
 
+![logo](https://github.com/1samaresh1/Bangalore_House_Price_Prediction_Using_Machine_Learning_Regression_Model/blob/main/image.png)
 The Bengaluru House Prediction project is a machine learning solution designed to help people in Bangalore predict home prices accurately. This is useful because buying a home involves many factors that affect prices and can be confusing.
 
 ## Dataset is downloaded from here:
