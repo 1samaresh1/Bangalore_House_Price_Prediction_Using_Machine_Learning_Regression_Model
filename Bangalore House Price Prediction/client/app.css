@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#96DED1;
+     
+}
+
+.img {
+    /* Add your image styling here */
+}
+
+.form {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color:#008080;
+}
+
+.form h2 {
+    margin-bottom: 10px;
+}
+
+input, select {
+    display: block;
+    margin: 10px 0;
+    width: 95%;
+    padding:9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.switch-field label {
+    display: inline-block;
+    width: 40px;
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+.switch-field input[type="radio"] {
+    display: none;
+}
+
+.switch-field input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#228B22;
+     background-color: #fff;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px; /* Increase font size for headings */
+    }
+    
+    .form {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+    
+    /* Adjust other styles as needed for mobile devices */
+}
+
+/* Media query for screens with a maximum width of 768px (tablets and small laptops) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px; /* Increase font size for headings */
+    }
+    
+    /* Adjust other styles as needed for tablets and small laptops */
+}
+
+/* Media query for screens with a maximum width of 1024px (standard laptops and desktops) */
+@media (max-width: 1024px) {
+    /* Adjust styles for laptops and desktops */
+}
+
+/* Media query for screens with a minimum width of 1025px (large desktops) */
+@media (min-width: 1025px) {
+    /* Adjust styles for large desktops */
+}
+
