@@ -60,7 +60,6 @@ The Bengaluru House Prediction project is a machine learning solution designed t
       Provide clear visual feedback to the user with the predicted price.
 
 ## Required Libraries:
-- Python - Primary programming language used for developing the machine learning model.
 - pandas: For data manipulation and cleaning.
 - numpy: For numerical operations on data.
 - scikit-learn: For machine learning algorithms, including linear regression, hyperparameter tuning, and cross-validation.
